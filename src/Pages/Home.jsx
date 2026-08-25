@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import HomeProducts from "../components/HomeProducts";
-import QualitySec from "../components/qualitySec";
+import QualitySec from "../components/QualitySec";
 
 const Home = () => (
   <>
