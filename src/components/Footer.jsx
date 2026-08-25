@@ -111,16 +111,7 @@ const Footer = () => {
       </div>
 
       {/* ── main content ── */}
-      <div
-        style={{
-          maxWidth: "1200px",
-          margin: "0 auto",
-          padding: "48px clamp(20px,4vw,48px) 40px",
-          display: "grid",
-          gridTemplateColumns: "1.5fr 1fr 1fr 1fr",
-          gap: "clamp(28px,4vw,48px)",
-        }}
-      >
+      <div className="footer-grid">
         {/* ── Col 1: Brand ── */}
         <div>
           {/* logo + tagline */}
@@ -275,18 +266,7 @@ const Footer = () => {
       </div>
 
       {/* ── Bottom bar ── */}
-      <div
-        style={{
-          maxWidth: "1200px",
-          margin: "0 auto",
-          padding: "20px clamp(20px,4vw,48px)",
-          display: "flex",
-          flexWrap: "wrap",
-          alignItems: "center",
-          justifyContent: "space-between",
-          gap: "10px",
-        }}
-      >
+      <div className="footer-bottom">
         <p
           style={{
             fontFamily: "'Poppins', sans-serif",
