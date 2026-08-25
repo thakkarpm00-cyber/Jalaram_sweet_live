@@ -181,7 +181,7 @@ function About() {
 
         {/* hero image – right side */}
         <img
-          src="/images/slide1.png"
+          src="/images/about.png"
           alt="Jalaram Sweets – Milk Penda"
           style={{
             position: "absolute",
@@ -238,7 +238,7 @@ function About() {
           {/* Image stack */}
           <div style={{ flex: "1 1 320px", position: "relative", minHeight: "360px" }}>
             <img
-              src="/images/slide1.png"
+              src="/images/kajukatri.png"
               alt="Fresh Indian sweets"
               style={{
                 width: "100%",
@@ -349,7 +349,7 @@ function About() {
           {/* image */}
           <div style={{ flex: "1 1 280px", minHeight: "280px", position: "relative" }}>
             <img
-              src="/images/slide1.png"
+              src="/images/whitep.png"
               alt="Milk Penda – Signature Sweet"
               style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center", display: "block", minHeight: "280px" }}
             />
