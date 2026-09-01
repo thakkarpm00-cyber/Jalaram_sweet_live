@@ -179,7 +179,7 @@ export const Navbar = () => {
       >
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "32px" }}>
           <img
-            src="/images/logo.png"
+            src="/images/logo3.png"
             alt="logo"
             style={{
               height: "65px", // Increased Mobile Drawer logo
